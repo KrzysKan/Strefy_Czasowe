@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.MainPage">
+
+    <StackLayout>
+        <Label Text="Czas w strefie utc-11:" />
+        <Label x:Name="easternLabel" />
+        <Label Text="Czas w strefie utc-1:" />
+        <Label x:Name="centralLabel" />
+        <Label Text="Czas w strefie utc+6:" />
+        <Label x:Name="pacificLabel" />
+        <Button Clicked="OnRefreshButtonClicked" Text="Sprawdź czas" x:Name="refresh_button"/>
+    </StackLayout>
+
+</ContentPage>
