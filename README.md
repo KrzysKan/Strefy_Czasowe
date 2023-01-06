@@ -1,1 +1,1 @@
-# App5
+# Aplikacja obliczająca czas w danych strefach czasowych
